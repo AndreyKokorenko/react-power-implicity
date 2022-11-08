@@ -1,0 +1,65 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+  &__logo {
+    justify-self: start;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__button {
+    justify-self: end;
+    padding: 10px;
+    max-width: 55%;
+    height: 48px;
+    border-radius: 999px;
+    font-size: calc(10px + 4 * (100vw / 1400));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    height: 70px;
+    &__button {
+      padding: 10px;
+      width: 80px;
+      height: 35px;
+      font-size: 8px;
+    }
+
+    &__nav {
+      font-size: 10px;
+    }
+    &__nav--link {
+      margin: 0 5px 0 0px;
+    }
+
+    &__logo {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    height: 50px;
+    &__button {
+      padding: 5px;
+      width: 80px;
+      height: 30px;
+      font-size: 5px;
+      justify-self: center;
+    }
+
+    &__nav:first-child {
+      margin: 0 5px 0 20px;
+    }
+  }
+}
