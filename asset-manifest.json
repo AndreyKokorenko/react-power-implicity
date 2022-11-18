@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-power-implicity/static/css/main.93dcded2.css",
+    "main.js": "/react-power-implicity/static/js/main.9fd9d83c.js",
+    "static/media/apple-logo.svg": "/react-power-implicity/static/media/apple-logo.e527469725e37f7b8dbf76b34ab12d87.svg",
+    "index.html": "/react-power-implicity/index.html",
+    "main.93dcded2.css.map": "/react-power-implicity/static/css/main.93dcded2.css.map",
+    "main.9fd9d83c.js.map": "/react-power-implicity/static/js/main.9fd9d83c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93dcded2.css",
+    "static/js/main.9fd9d83c.js"
+  ]
+}
